@@ -5,7 +5,7 @@ if(mark>35):
 else:
     print("fail")
 
-  # if elase method       
+  # if else method       
 income= int(input("income:"))
 if(income>7000):
     print("eligible for scholarship")
