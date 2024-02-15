@@ -50,4 +50,8 @@ for i in range(1,6):
 print(sum)    
 
 # get 10 number input and add the 10 numbef nd find the average
-
+a=[]
+for i in range(5):
+    num=int(input("enter num"+str(i+1)))
+    a.append(num)
+print(a)    

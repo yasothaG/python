@@ -115,7 +115,7 @@ else:
 
 #for loop statements:
   #  print 2 table
-   for i in range(1,11):
-    print(i,"x2=",i*2) 
+for i in range(1,11):
+      print(i,"x2=",i*2) 
 
       
