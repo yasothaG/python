@@ -29,7 +29,7 @@ else:
     print("not divisible by 3 and 5")   
 
 # give input and find even or odd
-    a=int(input())
+a=int(input())
 if(a%2==0):
     print("even")
 else:
@@ -37,8 +37,8 @@ else:
 
     # get input  and say if input is lesser than 35 , then print poor student , if greater than 35 and less than 70 , then print average student
     #if greater than 70 print good student 
-    score =int(input("out of 100:"))
-     if(score<35):
+score =int(input("out of 100:"))
+if(score<35):
     print("poor student")
 if (score<35 and score<70):
     print("average student")    
@@ -56,7 +56,7 @@ else:
 
     #Make a mini calculator, Get input for 2 numbers a and b  , Get input from user whether to add/sub/mul/div
            #If user selects add then add the two number and Print the result.
-    a=int(input())
+a=int(input())
 b=int(input())
 operation =input ("add/sub/mul/div:")
 if (operation=="add"):
