@@ -87,7 +87,7 @@ else:
    #If salary greater than or equal to 20000 or age less than or equal to 25, get input for required loan amount. If not print you are not eligible for loan.
    #If required loan amount is less than or equal to 50,000 print You are eligible for loan. If it is greater than 50,000 print maximum loan amount is 50000.
 
-  salary=int(input("salary:"))
+salary=int(input("salary:"))
 age=int(input("age:"))
 if(salary>=20000 or age<=25):
     loan=int(input("enter the loan amount"))
