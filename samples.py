@@ -1,6 +1,7 @@
-i=3
-fact=1
-while(i>0):
-    fact=fact*i
-    i=i-1
-print(fact)   
+a={
+    "name":"yasotha",
+    "age":"21",
+    "location":"pudukkottai"
+    }
+a.update({"age":22})
+print(a)
