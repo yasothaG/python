@@ -1,5 +1,4 @@
-for i in range(1,6):
-    num=int(input("number is:" and "cube is"))
-print(i,i*i*i)
-
-
+i=10
+while(i>0):
+    print(i)
+    i=i-1
