@@ -1,4 +1,6 @@
-i=10
+i=3
+fact=1
 while(i>0):
-    print(i)
+    fact=fact*i
     i=i-1
+print(fact)    
