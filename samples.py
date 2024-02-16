@@ -1,23 +1,20 @@
-class phone:
-    chargertype="c-type"
-    def __init__(self, brand,price):
-        self.brand=brand
-        self.price=price
-    def display(self):
-        print("Brand:",self.brand)
-        print("Price:",self.price)
-        print("Chargertype:",self.chargertype)
+class dad():
+    def money(self):
+        print("dads money")
 
-phone.chargertype="B-type" 
-       
-samsung=phone("samsung","10000")
-samsung.display()
+class son1(dad):
+    def laptop(self):
+        print(" his laptop")
 
-Redmi=phone("Redmi","20000")
-Redmi.display()
+class son2(dad):
+    def mobile(self):
+        print(" his mobile")
 
-        
+class son3(dad):
+    def tab(self):
+        print(" his tab")
 
+s2=son2()
+s2.money()
 
 
-        
