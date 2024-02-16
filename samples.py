@@ -1,6 +1,23 @@
-class calculator:
-    def add(self,a,b):
-        print("add",a+b)
+class phone:
+    chargertype="c-type"
+    def __init__(self, brand,price):
+        self.brand=brand
+        self.price=price
+    def display(self):
+        print("Brand:",self.brand)
+        print("Price:",self.price)
+        print("Chargertype:",self.chargertype)
 
-object1=calculator()
-object1.add(10,2)
+phone.chargertype="B-type" 
+       
+samsung=phone("samsung","10000")
+samsung.display()
+
+Redmi=phone("Redmi","20000")
+Redmi.display()
+
+        
+
+
+
+        
