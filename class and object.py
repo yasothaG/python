@@ -1,5 +1,5 @@
  #  explanation
-class goa:
+class goa():
     name=""
     drink=""
     def party(self):

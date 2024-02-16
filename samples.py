@@ -1,20 +1,21 @@
-class dad():
-    def money(self):
-        print("dads money")
+class a():
+    def __init__(self):
+        print("A")
+    def display(self):
+        print("you are in class a")    
 
-class son1(dad):
-    def laptop(self):
-        print(" his laptop")
+class b():
+    def __init__(self):
+        super().__init__()
+        print("B")
+    def display(self):
+        print("you are in class b")
 
-class son2(dad):
-    def mobile(self):
-        print(" his mobile")
+class c(a,b):
+    def __init__(self):
+        super().__init__()
+        print("C")
+    def display(self):
+        print("you are in class C")
 
-class son3(dad):
-    def tab(self):
-        print(" his tab")
-
-s2=son2()
-s2.money()
-
-
+obj1=c()
