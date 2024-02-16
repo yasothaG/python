@@ -1,15 +1,6 @@
-class laptop:
-    def __init__(self):
-        self.ram=""
-        self.processor=""
-    def display(self):
-        print("ram:",self.ram)
-        print("processor:",self.processor)
+class calculator:
+    def add(self,a,b):
+        print("add",a+b)
 
-hp=laptop()
-
-hp.ram="8gb"
-hp.processor="i5"
-
-hp.display() 
-  
+object1=calculator()
+object1.add(10,2)
