@@ -49,4 +49,5 @@ def printrange(r1,r2):
         print(i)
 a=int(input("Enter a:"))
 b=int(input("Enter b:"))         
-printrange(a,b)        
+printrange(a,b)   
+
